@@ -3,79 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Enquiry</title>
-
-     <link rel="stylesheet" href="style.css">
+    <title>Enquiry - Tkayys Photography</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-    <h1>Tkayys Photography</h1>
-    <p>Capturing Moments, creating memories.</p>
+
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <a class="brand" href="index.html">Tkayys Photography</a>
+
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+
+        </div>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-         <a href="about.html">About</a>
-          <a href="services.html">Services</a>
-           <a href="enquiry.html">Enquiry</a>
-           <a href="contact.html">Contact</a>
-    </nav>
     <main>
+
         <h2>Make an Enquiry</h2>
 
         <p>
-            Interested in Booking a photography session?
-            Complete the form below and tell us abour your requirements.
-        </p> 
+            Interested in booking a photography session?
+            Complete the form below and tell us about your requirements.
+        </p>
 
         <form>
+
             <label for="name">Full Name:</label>
             <input type="text" id="name" name="name">
 
-            <br><br>
-
-            <label for="email">Email Adress:</label>
+            <label for="email">Email Address:</label>
             <input type="email" id="email" name="email">
-
-            <br><br>
 
             <label for="phone">Phone Number:</label>
             <input type="tel" id="phone" name="phone">
 
-            <br><br>
-
-            <label for="service">Photography service</label>
-            <select id="service" name="service"> 
-                <option value="">select a service</option>
+            <label for="service">Photography Service:</label>
+            <select id="service" name="service">
+                <option value="">Select a service</option>
                 <option value="portrait">Portrait Photography</option>
                 <option value="event">Event Photography</option>
-                <option value="Creative">Creative Photography</option>
-                </select>
+                <option value="creative">Creative Photography</option>
+            </select>
 
-                <br><br>
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date">
 
-                <label for="date">Preferred Date</label>
-                <input type="date" name="date"
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
 
-                <br><br>
-
-                <label for="message">Message:</label>
-                <br>
-                <textterea id="message" name="message" rows="5" cols="40"></textterea>
-
-                <br><br>
-
-                <button type="submit">Submit Enquiry</button>
+            <button type="submit">Submit Enquiry</button>
 
         </form>
 
     </main>
 
-    <footer>
-        <p>&copy; 2026 Tkayys Photography. All rights reserved</p>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Tkayys Photography. All rights reserved.</p>
+        </div>
     </footer>
-        
-        
+
 </body>
 </html>

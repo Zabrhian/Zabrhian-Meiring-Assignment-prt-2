@@ -1,67 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>serverices</title>
-
-     <link rel="stylesheet" href="style.css">
+    <title>Services | Tkayys Photography</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <header>
-        <h1>Tkayys Photography</h1>
-        <p>Capturing moments, creating memories.</p>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html"> Tkayys Photography</a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="enquiry.html">Enquiry</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-         <a href="about.html">About</a>
-          <a href="services.html">Services</a>
-           <a href="enquiry.html">Enquiry</a>
-           <a href="contact.html">Contact</a>
-    </nav>
-
     <main>
-        <h2>Our Photography Services</h2>
-        <p>
-            Tkayys Photography provides professional photography
+        <section class="page-header">
+            <div class="container">
+                <p class="eyebrow">What we offer</p>
+                <h1>Our Services</h1>
+                <p class="page-introduction">
+                    Tkayys Photography provides professional photography
             services for clients looking to capture important moments and create lasting memories
-        </p>
-        <h3>Portrait Photography</h3>
-        <p>
-            Professional Portrait photograghy for individuals, 
-            personal branding and special occassions. 
-        </p>
+                </p>
+            </div>
+        </section>
 
-        <h3>Event Photography</h3>
+        <section class="services-section" aria-labelledby="services-heading">
+            <div class="container">
+                <h2 id="services-heading" class="section-heading">Services We Provide</h2>
+                <div class="services-grid">
+                    <!-- SERVICE CARD 1 -->
+                    <article class="service-card">
+                        <img class="service-image" src="images/Proffesional photo.png"
+                             alt="Describe the first service image">
+                        <div class="service-content">
+                            <h3>Portrait Photography</h3>
+                            <p>Professional Portrait photography for individuals, 
+                            personal branding and special occasions. </p>
+                        </div>
+                    </article>
 
-        <p>
-            Photography coverage for events and memorable 
-            occasions.
-        </p>
+                    <!-- SERVICE CARD 2-->
+                    <article class="service-card">
+                        <img class="service-image" src="images/Event.png"
+                             alt="Describe the second service image">
+                        <div class="service-content">
+                            <h3>Event Photography</h3>
+                            <p>Photography coverage for events and memorable 
+                               occasions.</p>
+                        </div>
+                    </article>
 
-        <h3>Creative Photography</h3>
-
-        <p>Creative photography</p>
-
-        <p>
-           sessions designed to capture
-            unique ideas, personalities and moments.
-        </p>
-        <h2>Interested in Booking?</h2>
-
-        <p>
-            Contact us to enquire about a photography session.
-        </p>
-
-        <a href="enquiry.html">Make an Enquiry</a>
+                    <!-- SERVICE CARD 3-->
+                    <article class="service-card">
+                        <img class="service-image" src="images/Creative.png"
+                             alt="Describe the third service image">
+                        <div class="service-content">
+                            <h3>Creative Photography</h3>
+                            <p>Sessions designed to capture
+                               unique ideas, personalities and moments.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
-      
-    
-    <footer>
-      <p>&copy;2026 Tkayys Photography. All rights reserved.</p>   
-    </footer>
 
-</body>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Tkayysphotography. All rights reserved.</p>
+        </div>
+    </footer>
+    </body>
 </html>
